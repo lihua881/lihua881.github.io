@@ -37,9 +37,9 @@ Ziyi Zhang, Shijie Lian, **Hua Li***
 
 Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al.
 
-[**Code**](https://github.com/LiamLian0727/USIS10K) \| ![](![GitHub Stars](https://img.shields.io/github/stars/LiamLian0727/USIS10K?style=social&label=USIS10K%20Stars)
+[**Code**](https://github.com/LiamLian0727/USIS10K) \| [![](![GitHub Stars](https://img.shields.io/github/stars/LiamLian0727/USIS10K?style=social&label=USIS10K%20Stars)]
 )
-  - This work has 
+  - This paper introduces the first large-scale underwater salient instance segmentation dataset (USIS10K) and proposes the USIS-SAM architecture based on the Segment Anything Model (SAM) for underwater vision tasks. The model incorporates an Underwater Adaptive Visual Transformer (UA-ViT) and an automatic Salient Feature Prompter Generator (SFPG) to improve segmentation accuracy in complex underwater environments.
 </div>
 </div>
 
