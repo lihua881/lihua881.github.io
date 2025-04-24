@@ -1,4 +1,4 @@
-# 🎖 Honors and Awards
+# 🎖 科研竞赛
 
 ## 🏆 国家级奖项
 
