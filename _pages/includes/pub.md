@@ -3,6 +3,19 @@
 # 📝 发表论文 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/paperimgs/tmanet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234)
+
+Ziyi Zhang, Shijie Lian, **Hua Li***
+
+[**Code**]([代码链接])
+  - This paper proposes a Triple Multi-Scale Attention-based Network (TMANet) for superpixel segmentation, which incorporates Triple Multi-Scale Attention (TMA) and Boundary Association (BA) loss to effectively capture fine-grained contextual information and enhance boundary accuracy.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2025</div><img src='paperimgs/xxx.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -13,19 +26,6 @@ Wenhui Wu, Yuemiao Wang, **Hua Li***, Yuanhao Gong
 [**Code**]([代码链接])
 
 - OptiDiff is a Unsupervised Deep-Sea Image Enhancement method via Optical Priors Guided Stable Diffusion.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/paperimgs/tmanet.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234)
-
-Ziyi Zhang, Shijie Lian, **Hua Li***
-
-[**Code**]([代码链接])
-  - This paper proposes a Triple Multi-Scale Attention-based Network (TMANet) for superpixel segmentation, which incorporates Triple Multi-Scale Attention (TMA) and Boundary Association (BA) loss to effectively capture fine-grained contextual information and enhance boundary accuracy.
 </div>
 </div>
 
