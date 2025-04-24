@@ -4,9 +4,9 @@ main:
     url: "/#about-me"
 
   - title: "发表论文"
-    url: "/#-publications"
+    url: "/#-lw"
 
   - title: "科研竞赛"
-    url: "/#-honors-and-awards"
+    url: "/#-kyjs"
 
 

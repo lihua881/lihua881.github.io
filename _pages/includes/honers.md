@@ -1,3 +1,4 @@
+<span class='anchor' id='-kyjs'></span>
 # 🎖 科研竞赛
 
 ## 🏆 国家级奖项
