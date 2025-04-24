@@ -1,12 +1,12 @@
 
 # 📝 Publications 
-## 🎙 Speech Synthesis
 
-# ``IJCAI 2022`` <span style="color:red">(Oral)</span> 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='paperimgs/xxx.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[OptiDiff: Unsupervised Deep-Sea Image Enhancement via Optical Priors Guided Stable Diffusion]([PDF链接]) \\
+[OptiDiff: Unsupervised Deep-Sea Image Enhancement via Optical Priors Guided Stable Diffusion]([PDF链接])
+
 Wenhui Wu, Yuemiao Wang, **Hua Li***, Yuanhao Gong
 
 [**Code**]([代码链接])
@@ -19,7 +19,8 @@ Wenhui Wu, Yuemiao Wang, **Hua Li***, Yuanhao Gong
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2021</div><img src='/paperimgs/tmanet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234) \\
+[TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234)
+
 Ziyi Zhang, Shijie Lian, **Hua Li***
 
 [**Code**]([代码链接])
@@ -31,7 +32,8 @@ Ziyi Zhang, Shijie Lian, **Hua Li***
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/paperimgs/diving.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Diving into Underwater: Segment Anything Model Guided Underwater Salient Instance Segmentation and A Large-scale Dataset](https://arxiv.org/pdf/2406.06039) \\ 
+[Diving into Underwater: Segment Anything Model Guided Underwater Salient Instance Segmentation and A Large-scale Dataset](https://arxiv.org/pdf/2406.06039)
+
 Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al.
 
 [**Code**](https://github.com/LiamLian0727/USIS10K) \| [![](https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=DiffSpeech Stars)]
@@ -43,7 +45,8 @@ Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/paperimgs/usnet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[USNET: Underwater Image Superpixel Segmentation via Multi-scale Water-net](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1411717/full) \\ 
+[USNET: Underwater Image Superpixel Segmentation via Multi-scale Water-net](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1411717/full)
+
 Chuhong Wang, Wenli Duan, Chengche Luan, Junyan Liang, Lengyu Shen, and **Hua Li***
 
 [**Code**](xxx)
