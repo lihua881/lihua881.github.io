@@ -37,8 +37,7 @@ Ziyi Zhang, Shijie Lian, **Hua Li***
 
 Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al.
 
-[**Code**](https://github.com/LiamLian0727/USIS10K) \| [![](![GitHub Stars](https://img.shields.io/github/stars/LiamLian0727/USIS10K?style=social&label=USIS10K%20Stars)]
-)
+[**Code**](https://github.com/LiamLian0727/USIS10K) \| [![](![GitHub Stars](https://img.shields.io/github/stars/LiamLian0727/USIS10K?style=social&label=USIS10K%20Stars))]
   - This paper introduces the first large-scale underwater salient instance segmentation dataset (USIS10K) and proposes the USIS-SAM architecture based on the Segment Anything Model (SAM) for underwater vision tasks. The model incorporates an Underwater Adaptive Visual Transformer (UA-ViT) and an automatic Salient Feature Prompter Generator (SFPG) to improve segmentation accuracy in complex underwater environments.
 </div>
 </div>
@@ -52,7 +51,7 @@ Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al.
 Chuhong Wang, Wenli Duan, Chengche Luan, Junyan Liang, Lengyu Shen, **Hua Li***
 
 [**Code**](xxx)
-  - This work has 
+  - This paper proposes the first underwater superpixel segmentation network (USNet) designed to address the unique challenges of underwater image quality degradation. The network incorporates a multi-scale water-net module (MWM) for image enhancement, a degradation-aware attention (DA) mechanism to handle light scattering and absorption, and dynamic spatiality embedding to combine deep and shallow spatial features.
 </div>
 </div>
 
@@ -60,12 +59,12 @@ Chuhong Wang, Wenli Duan, Chengche Luan, Junyan Liang, Lengyu Shen, **Hua Li***
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='/paperimgs/esnet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ESNet: Evolution and Succession Network for High-Resolution Salient Object Detection](https://github.com/big-feather/ESNet_ICML24)
+[ESNet: Evolution and Succession Network for High-Resolution Salient Object Detection](https://dl.acm.org/doi/10.5555/3692070.3693315)
 
 Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 
-[**Code**](xxx)
-  - This work has 
+[**Code**](https://github.com/big-feather/ESNet_ICML24)
+  - This paper presents a two-stage High-Resolution Salient Object Detection (HRSOD) model, consisting of an evolution stage with a Low-resolution Location Model (LrLM) for detail-preserving localization, and a succession stage with a High-resolution Refinement Model (HrRM) to enhance and refine features for final saliency prediction. A new evaluation metric, Boundary-Detail-aware Mean Absolute Error (MAEBD), is introduced to assess the model's ability to preserve details.
 </div>
 </div>
 
@@ -78,7 +77,7 @@ Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 **Hua Li**, Junyan Liang, Ruiqi Wu, Runmin Cong*, Wenhui Wu; Sam Tak Wu Kwong
 
 [**Code**](xxx)
-  - This work has 
+  - This paper introduces a stereo superpixel segmentation method that incorporates a decoupling mechanism to separately handle stereo disparity and spatial information. A Decoupled Stereo Fusion Module (DSFM) is proposed to align stereo features and address occlusion issues, while a Dynamic Spatiality Embedding Module (DSEM) is designed to reintroduce spatial information with adaptive weight adjustment for finer segmentation. This approach improves the segmentation performance by efficiently utilizing both stereo disparity and spatial features.
 </div>
 </div>
 
@@ -91,7 +90,7 @@ Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 **Hua Li**, Junyan Liang, Wenjie Li, Wenhui Wu*
 
 [**Code**](xxx)
-  - This work has 
+  - This paper proposes FSNet, an end-to-end frequency domain guided superpixel segmentation network designed for complex scenes. FSNet generates superpixels with sharp boundary adherence by fusing deep features from both spatial and frequency domains. An improved frequency information extractor (IFIE) captures frequency domain details with sharp boundary features, while a dense hybrid atrous convolution (DHAC) block preserves semantic information by capturing broader and deeper spatial features. The fusion of these features enables the generation of semantic perceptual superpixels with enhanced boundary accuracy.
 </div>
 </div>
 
@@ -104,7 +103,7 @@ Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 Shijie Lian, **Hua Li***, Runmin Cong*, Suqi Li, Wei Zhang, Sam Kwong
 
 [**Code**](https://github.com/LiamLian0727/WaterMask)
-  - This work has 
+  - This paper introduces the first underwater image instance segmentation dataset (UIIS), consisting of 4,628 images across 7 categories with pixel-level annotations. The authors also propose WaterMask, a novel method for underwater image instance segmentation. WaterMask utilizes the Difference Similarity Graph Attention Module (DSGAT) to recover lost details from image degradation and downsampling. Additionally, a Multi-level Feature Refinement Module (MFRM) is designed to predict foreground and boundary masks at different scales, guided by a Boundary Mask Strategy (BMS) with boundary learning loss to enhance segmentation accuracy. 
 </div>
 </div>
 
@@ -117,7 +116,7 @@ Shijie Lian, **Hua Li***, Runmin Cong*, Suqi Li, Wei Zhang, Sam Kwong
 Shuaibo Gao, Wenhui Wu, **Hua Li**, Linwei Zhu, Xu Wang
 
 [**Code**](https://github.com/charliewalker322/SCEIR-pytorch)
-  - This work has 
+  - This paper proposes a novel lightweight model for Underwater Image Restoration (UIR) by establishing a statistical relationship between underwater and recovered images based on the Atmospheric Scattering Model (ASM), avoiding the need to estimate transmission maps and global light. The UIR problem is addressed through two modules: global restoration and local compensation.
 </div>
 </div>
 
@@ -129,7 +128,7 @@ Shuaibo Gao, Wenhui Wu, **Hua Li**, Linwei Zhu, Xu Wang
 Ruiqi Wu, Yajuan Du, **Hua Li***, Yucong Dai
 
 [**Code**](xxx)
-  - This work has 
+  - This paper proposes an end-to-end dual-attention fusion network for stereo image superpixel segmentation, aiming to generate parallax-consistency superpixels by leveraging depth information from stereo image pairs. The method extracts deep features from both left and right views using a convolutional network, and integrates these features using a parallax attention and channel attention mechanism. The stereo superpixels are then generated through a differentiable clustering algorithm, which is fully trainable with deep learning techniques.
 </div>
 </div>
 
@@ -142,7 +141,7 @@ Ruiqi Wu, Yajuan Du, **Hua Li***, Yucong Dai
 **Hua Li**, Runmin Cong*, Sam Kwong*, Chuanbo Chen, Qianqian Xu, Chongyi Li
 
 [**Code**](xxx)
-  - This work has 
+  - This paper introduces a left-right interactive optimization framework for stereo superpixel segmentation, focusing on parallax consistency between the left and right views. The framework divides the images into paired and non-paired regions, and employs a collaborative optimization scheme to refine the matched superpixels interactively. This approach, which is the first to consider parallax consistency in stereo superpixel segmentation, demonstrates superior performance in both consistency and accuracy compared to traditional single-image segmentation methods through quantitative and qualitative experiments.
 </div>
 </div>
 
@@ -155,7 +154,7 @@ Ruiqi Wu, Yajuan Du, **Hua Li***, Yucong Dai
 **Hua Li**, Yuheng Jia, Runmin Cong, Wenhui Wu, Sam Kwong*, Chuanbo Chen
 
 [**Code**](xxx)
-  - This work has 
+  - This article proposes a novel approach to superpixel segmentation by treating each representative region with independent semantic information as a subspace, formulating the segmentation as a subspace clustering problem to better preserve detailed content boundaries. The authors address the issue of boundary confusion and segmentation errors caused by ignoring the spatial correlation of pixels within a superpixel. To overcome this, they introduce a spatial regularization and propose a convex locality-constrained subspace clustering model that ensures adjacent pixels with similar attributes are clustered together, resulting in content-aware superpixels with more detailed boundaries. The model is efficiently solved using an alternating direction method of multipliers solver.
 </div>
 </div>
 
@@ -168,7 +167,7 @@ Ruiqi Wu, Yajuan Du, **Hua Li***, Yucong Dai
 Chongyi Li, Runmin Cong*, Chunle Guo, **Hua Li***, Chunjie Zhang, Feng Zheng, Yao Zhao
 
 [**Code**](xxx)
-  - This work has 
+  - This paper proposes a novel Parallel Down-up Fusion network (PDF-Net) for salient object detection (SOD) in optical remote sensing images (RSIs), addressing challenges such as diverse spatial resolutions, object scales, and cluttered backgrounds. PDF-Net utilizes five parallel paths with successive down-sampling to capture salient objects at different scales. Dense connections are employed to leverage both low- and high-level features, while cross-path relations enhance feature representation. The network fuses multi-resolution features, combining the strengths of high-resolution details and low-resolution context to improve detection accuracy. 
 </div>
 </div>
 
@@ -181,6 +180,6 @@ Chongyi Li, Runmin Cong*, Chunle Guo, **Hua Li***, Chunjie Zhang, Feng Zheng, Ya
 **Hua Li**, Sam Kwong*, Chuanbo Chen, Yuheng Jia*, Runmin Cong
 
 [**Code**](xxx)
-  - This work has 
+  - This paper presents a superpixel segmentation method aimed at generating structural superpixels with sharp boundary adherence and comprehensive semantic information. The segmentation is formulated as a square-wise asymmetric partition problem, where semantic perceptual superpixels are organized in square units to preserve rich semantic content while minimizing storage. To ensure regular-shaped superpixels that align well with image boundaries and contours, a combinatorial optimization strategy is proposed to optimally combine squares and isolated pixels. This approach addresses the irregularity issue in traditional superpixel methods, enhancing boundary precision and semantic coherence.
 </div>
 </div>
