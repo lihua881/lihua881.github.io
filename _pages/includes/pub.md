@@ -25,7 +25,7 @@ Wenhui Wu, Yuemiao Wang, **Hua Li***, Yuanhao Gong
 Ziyi Zhang, Shijie Lian, **Hua Li***
 
 [**Code**]([代码链接])
-  - This work is 
+  - This paper proposes a Triple Multi-Scale Attention-based Network (TMANet) for superpixel segmentation, which incorporates Triple Multi-Scale Attention (TMA) and Boundary Association (BA) loss to effectively capture fine-grained contextual information and enhance boundary accuracy.
 </div>
 </div>
 
