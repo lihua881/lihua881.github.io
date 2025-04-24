@@ -3,7 +3,7 @@
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='paperimgs/xxx.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-text' markdown="ICME 2025">
 
 [OptiDiff: Unsupervised Deep-Sea Image Enhancement via Optical Priors Guided Stable Diffusion]([PDF链接])
 
@@ -17,7 +17,7 @@ Wenhui Wu, Yuemiao Wang, **Hua Li***, Yuanhao Gong
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2021</div><img src='/paperimgs/tmanet.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-text' markdown="ICASSP 2025">
 
 [TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234)
 
@@ -47,7 +47,7 @@ Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al.
 
 [USNET: Underwater Image Superpixel Segmentation via Multi-scale Water-net](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1411717/full)
 
-Chuhong Wang, Wenli Duan, Chengche Luan, Junyan Liang, Lengyu Shen, and **Hua Li***
+Chuhong Wang, Wenli Duan, Chengche Luan, Junyan Liang, Lengyu Shen, **Hua Li***
 
 [**Code**](xxx)
   - This work has 
@@ -70,7 +70,8 @@ Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/paperimgs/stereo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Stereo Superpixel Segmentation Via Decoupled Dynamic Spatial-Embedding Fusion Network](https://ieeexplore.ieee.org/document/10098144) \\ 
+[Stereo Superpixel Segmentation Via Decoupled Dynamic Spatial-Embedding Fusion Network](https://ieeexplore.ieee.org/document/10098144)
+
 **Hua Li**, Junyan Liang, Ruiqi Wu, Runmin Cong*, Wenhui Wu; Sam Tak Wu Kwong
 
 [**Code**](xxx)
@@ -82,7 +83,8 @@ Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/paperimgs/fsnet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[FSNet: Frequency Domain Guided Superpixel Segmentation Network for Complex Scenes](https://dl.acm.org/doi/10.1145/3581783.3613826) \\ 
+[FSNet: Frequency Domain Guided Superpixel Segmentation Network for Complex Scenes](https://dl.acm.org/doi/10.1145/3581783.3613826)
+
 **Hua Li**, Junyan Liang, Wenjie Li, Wenhui Wu*
 
 [**Code**](xxx)
