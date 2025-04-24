@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "李华"
-description              : "计算机科学与技术学院副教授，硕博士生导师，研究方向为计算机视觉、人工智能、深度学习，水下/医学图像处理，海洋环境感知与智慧农业。"
+description              : "海南省优青，海南省“南海新星”科技创新人才，海南省高层次人才D类。"
 repository               : "lihua881/lihua881.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "lihua881"
+  linkedin         : # "lihua881"
   dblp             : # "https://dblp.org/pid/75/6568-6.html"
   orcid            : # "https://orcid.org/0000-0002-9160-3848"
   pinterest        :
