@@ -1,12 +1,12 @@
 # main links links
 main:
   - title: "简介"
-    url: "/zh-cn/#about-me"
+    url: "/#about-me"
 
   - title: "发表论文"
-    url: "/zh-cn/#-publications"
+    url: "/#-publications"
 
   - title: "科研竞赛"
-    url: "/zh-cn/#-honors-and-awards"
+    url: "/#-honors-and-awards"
 
 
