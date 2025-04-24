@@ -1,7 +1,7 @@
 <!-- I work at TikTok <img src='./images/tiktok.png' style='width: 6em;'> as a research scientist now in Singapore.  -->
 李华，本科毕业于西北工业大学，博士毕业于华中科技大学（香港城市大学联合培养）,计算机科学与技术学院副教授，硕博士生导师。
 
-主要研究方向包括计算机视觉、水下\医学图像处理、海洋环境感知、智慧农业、人工智能、深度学习等。主持/参与了包括国家自然科学基金、海南省自然科学基金等多项科研项目。担任IEEE旗下海洋工程领域核心期刊IEEE Journal of Oceanic Engineering（中科院SCI二区）编委，亚太信号与信息处理协会 图像、视频与多媒体（APSIPA IVM）技术委员会委员。担任国际学术会议IEEE DSS 2021的程序委员会副主席、以及IEEE TMM、IEEE TIE、IEEE JOE、ACM MM、IEEE ICME、IEEE ICASSP等期刊和会议的审稿专家。2021、2023年分别荣获IEEE杰出领导奖。2022年获IEEE Journal of Oceanic Engineering杰出审稿人奖。近五年，在计算机视觉领域以第一或通讯作者在ICCV、ICML、ACM MM、IEEE TMM、 IEEE TII、 IEEE ICME 等高水平国际期刊和会议上发表多篇SCI/EI文章。
+主要研究方向包括计算机视觉、水下\医学图像处理、海洋环境感知、智慧农业、人工智能、深度学习等。
 
 <!-- I am now working on audio-driven talking face generation, text-to-speech and music generation research. If you are seeking any form of **academic cooperation**, please feel free to email me at [ren.yi@bytedance.com](mailto:ren.yi@bytedance.com). We are hiring interns!
 
