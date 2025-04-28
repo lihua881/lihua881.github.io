@@ -30,7 +30,7 @@ Wenhui Wu, Yuemiao Wang, **Hua Li***, Yuanhao Gong
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='/paperimgs/diving.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='/paperimgs/diving.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Diving into Underwater: Segment Anything Model Guided Underwater Salient Instance Segmentation and A Large-scale Dataset](https://arxiv.org/pdf/2406.06039)
@@ -95,7 +95,7 @@ Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='/paperimgs/watermask.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='/paperimgs/watermask.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [WaterMask: Instance Segmentation for Underwater Imagery](https://openaccess.thecvf.com/content/ICCV2023/papers/Lian_WaterMask_Instance_Segmentation_for_Underwater_Imagery_ICCV_2023_paper.pdf)
