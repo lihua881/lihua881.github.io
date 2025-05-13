@@ -2,6 +2,31 @@
 <span class='anchor' id='-lw'></span>
 # 📝 发表论文 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='/paperimgs/diving.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Diving into Underwater: Segment Anything Model Guided Underwater Salient Instance Segmentation and A Large-scale Dataset](https://arxiv.org/pdf/2406.06039)
+
+Shijie Lian, Ziyi Zhang, **Hua Li***, Wenjie Li, Laurence Tianruo Yang, Sam Kwong, Runmin Cong.
+
+[**Code**](https://github.com/LiamLian0727/USIS10K)
+  - This paper introduces the first large-scale underwater salient instance segmentation dataset (USIS10K) and proposes the USIS-SAM architecture based on the Segment Anything Model (SAM) for underwater vision tasks. The model incorporates an Underwater Adaptive Visual Transformer (UA-ViT) and an automatic Salient Feature Prompter Generator (SFPG) to improve segmentation accuracy in complex underwater environments.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='/paperimgs/watermask.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[WaterMask: Instance Segmentation for Underwater Imagery](https://openaccess.thecvf.com/content/ICCV2023/papers/Lian_WaterMask_Instance_Segmentation_for_Underwater_Imagery_ICCV_2023_paper.pdf)
+
+Shijie Lian, **Hua Li***, Runmin Cong*, Suqi Li, Wei Zhang, Sam Kwong
+
+[**Code**](https://github.com/LiamLian0727/WaterMask)
+  - This paper introduces the first underwater image instance segmentation dataset (UIIS), consisting of 4,628 images across 7 categories with pixel-level annotations. The authors also propose WaterMask, a novel method for underwater image instance segmentation. WaterMask utilizes the Difference Similarity Graph Attention Module (DSGAT) to recover lost details from image degradation and downsampling. Additionally, a Multi-level Feature Refinement Module (MFRM) is designed to predict foreground and boundary masks at different scales, guided by a Boundary Mask Strategy (BMS) with boundary learning loss to enhance segmentation accuracy. 
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/paperimgs/tmanet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -26,19 +51,6 @@ Wenhui Wu, Yuemiao Wang, **Hua Li***, Yuanhao Gong
 [**Code**]([代码链接])
 
 - OptiDiff is a Unsupervised Deep-Sea Image Enhancement method via Optical Priors Guided Stable Diffusion.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='/paperimgs/diving.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Diving into Underwater: Segment Anything Model Guided Underwater Salient Instance Segmentation and A Large-scale Dataset](https://arxiv.org/pdf/2406.06039)
-
-Shijie Lian, Ziyi Zhang, **Hua Li***, Wenjie Li, Laurence Tianruo Yang, Sam Kwong, Runmin Cong.
-
-[**Code**](https://github.com/LiamLian0727/USIS10K)
-  - This paper introduces the first large-scale underwater salient instance segmentation dataset (USIS10K) and proposes the USIS-SAM architecture based on the Segment Anything Model (SAM) for underwater vision tasks. The model incorporates an Underwater Adaptive Visual Transformer (UA-ViT) and an automatic Salient Feature Prompter Generator (SFPG) to improve segmentation accuracy in complex underwater environments.
 </div>
 </div>
 
@@ -91,19 +103,6 @@ Hongyu Liu, Runmin Cong*, **Hua Li**, Qianqian Xu, Qingming Huang, Wei Zhang
 
 [**Code**](xxx)
   - This paper proposes FSNet, an end-to-end frequency domain guided superpixel segmentation network designed for complex scenes. FSNet generates superpixels with sharp boundary adherence by fusing deep features from both spatial and frequency domains. An improved frequency information extractor (IFIE) captures frequency domain details with sharp boundary features, while a dense hybrid atrous convolution (DHAC) block preserves semantic information by capturing broader and deeper spatial features. The fusion of these features enables the generation of semantic perceptual superpixels with enhanced boundary accuracy.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='/paperimgs/watermask.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[WaterMask: Instance Segmentation for Underwater Imagery](https://openaccess.thecvf.com/content/ICCV2023/papers/Lian_WaterMask_Instance_Segmentation_for_Underwater_Imagery_ICCV_2023_paper.pdf)
-
-Shijie Lian, **Hua Li***, Runmin Cong*, Suqi Li, Wei Zhang, Sam Kwong
-
-[**Code**](https://github.com/LiamLian0727/WaterMask)
-  - This paper introduces the first underwater image instance segmentation dataset (UIIS), consisting of 4,628 images across 7 categories with pixel-level annotations. The authors also propose WaterMask, a novel method for underwater image instance segmentation. WaterMask utilizes the Difference Similarity Graph Attention Module (DSGAT) to recover lost details from image degradation and downsampling. Additionally, a Multi-level Feature Refinement Module (MFRM) is designed to predict foreground and boundary masks at different scales, guided by a Boundary Mask Strategy (BMS) with boundary learning loss to enhance segmentation accuracy. 
 </div>
 </div>
 
