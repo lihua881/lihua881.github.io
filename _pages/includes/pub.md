@@ -10,7 +10,7 @@
 Zhangjun Zhou, Yiping Li, Chunlin Zhong, Jianuo Huang, Jialun Pei, **Hua Li**, He Tang
 
 [**Code**](https://github.com/ssecv/USCNet)
-  - This paper addresses the challenge in distinguishing between salient (easily noticeable) and camouflaged (hard to see) objects in images. Current models often misclassify objects due to two main reasons: the datasets used for training enforce a mutual exclusivity rule (objects are either salient or camouflaged), which does not reflect real-world scenarios, and existing models don't explicitly model the relationship between these two types of objects. To tackle this, we propose a new large-scale dataset called USC12K, which includes comprehensive labels and covers all possible real-world scenarios where both types of objects can coexist. we also introduce a new model, USCNet, which uses two different prompt query mechanisms to capture the relationship between salient and camouflaged objects. Additionally, we create a new evaluation metric, CSCS, to better assess how well the model distinguishes between these object types.
+  - This paper tackles the challenge of distinguishing between salient (easily noticeable) and camouflaged (hard to see) objects in images. Existing models struggle due to the assumption that objects are either one or the other, which doesn't reflect real-world scenarios. To address this, we introduce USC12K, a large-scale dataset that includes both types of objects coexisting, and USCNet, a new model that uses two prompt query mechanisms to capture their relationship. Additionally, we propose a new evaluation metric, CSCS, to better assess model performance.
 </div>
 </div>
 
