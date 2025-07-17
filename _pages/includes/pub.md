@@ -2,7 +2,7 @@
 <span class='anchor' id='-lw'></span>
 # 📝 发表论文 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='/paperimgs/fscdiff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM'MM 2025</div><img src='/paperimgs/fscdiff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FSCDiff: Frequency-Spatial Entangled Conditional Diffusion model for Underwater Salient Object Detection](https://arxiv.org/xxx)
