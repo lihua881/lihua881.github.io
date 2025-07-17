@@ -2,6 +2,19 @@
 <span class='anchor' id='-lw'></span>
 # 📝 发表论文 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='/paperimgs/fscdiff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FSCDiff: Frequency-Spatial Entangled Conditional Diffusion model for Underwater Salient Object Detection](https://arxiv.org/xxx)
+
+**Hua Li**, Gaowei Lin, Zhiyuan Li, Sam Kwong, Runmin Cong
+
+[**Code**](https://github.com/xxx)
+  - Salient object detection (SOD) is crucial for image understanding, but underwater SOD often struggles with accuracy due to the complexity of underwater environments. While existing RGB-D multimodal methods focus on spatial domain features, they seldom explore frequency domain characteristics. To address this, we propose a novel Frequency-Spatial Entangled Conditional Diffusion (FSCDiff) framework for underwater SOD. The FSCDiff enhances accuracy and robustness by incorporating frequency-domain information and the iterative power of diffusion models. It consists of two main components: the Frequency-Spatial Entanglement Enhancement Block (DTEB), which optimizes feature representation by combining frequency and spatial domain data, and the Stable Time-step Mask Prediction Module (STMP), which improves segmentation through multi-step iteration.
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='/paperimgs/USCNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
