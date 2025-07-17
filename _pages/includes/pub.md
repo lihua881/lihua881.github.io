@@ -10,7 +10,8 @@
 **Hua Li**, Gaowei Lin, Zhiyuan Li, Sam Kwong, Runmin Cong
 
 [**Code**](https://github.com/xxx)
-  - Salient object detection (SOD) is crucial for image understanding, but underwater SOD often struggles with accuracy due to the complexity of underwater environments. While existing RGB-D multimodal methods focus on spatial domain features, they seldom explore frequency domain characteristics. To address this, we propose a novel Frequency-Spatial Entangled Conditional Diffusion (FSCDiff) framework for underwater SOD. The FSCDiff enhances accuracy and robustness by incorporating frequency-domain information and the iterative power of diffusion models. It consists of two main components: the Frequency-Spatial Entanglement Enhancement Block (DTEB), which optimizes feature representation by combining frequency and spatial domain data, and the Stable Time-step Mask Prediction Module (STMP), which improves segmentation through multi-step iteration.
+  - Underwater salient object detection (SOD) faces accuracy challenges due to complex environments. Existing RGB-D methods focus on spatial features, often neglecting frequency domain information. To address this, we propose the Frequency-Spatial Entangled Conditional Diffusion (FSCDiff) framework, which combines frequency-domain data with the iterative power of diffusion models. It includes two key components: the Frequency-Spatial Entanglement Enhancement Block (DTEB) for optimized feature representation, and the Stable Time-step Mask Prediction Module (STMP) for improved segmentation.
+
 
 </div>
 </div>
