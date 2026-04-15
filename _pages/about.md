@@ -16,6 +16,8 @@ redirect_from:
 <!-- {% include_relative includes/news.md %} -->
 
 <span class='anchor' id='research-tabs'></span>
+<span class='anchor' id='papers'></span>
+<span class='anchor' id='competitions'></span>
 <div class="content-switcher">
   <div class="content-switcher__tabs">
     <a class="content-switcher__tab is-active" href="#papers" data-tab-target="papers">发表论文</a>

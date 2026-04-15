@@ -20,4 +20,100 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<style>
+  .masthead {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: saturate(150%) blur(8px);
+    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 1px solid rgba(31, 95, 168, 0.12);
+    box-shadow: 0 10px 24px rgba(22, 56, 104, 0.08);
+  }
+
+  .masthead__inner-wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .masthead__menu .visible-links {
+    gap: 0.35rem;
+  }
+
+  .masthead__menu-item > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.52rem 0.95rem;
+    border-radius: 999px;
+    font-weight: 600;
+    color: #1d426a;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  .masthead__menu-item > a:hover {
+    background: rgba(31, 95, 168, 0.08);
+    border-color: rgba(31, 95, 168, 0.2);
+    color: #144173;
+    text-decoration: none;
+  }
+
+  .masthead__menu-home-item > a {
+    color: #fff;
+    background: linear-gradient(135deg, #1f5fa8 0%, #2f81c7 100%);
+    box-shadow: 0 8px 20px rgba(31, 95, 168, 0.24);
+  }
+
+  .masthead__menu-home-item > a:hover {
+    color: #fff;
+    background: linear-gradient(135deg, #225f9d 0%, #3b8dd1 100%);
+    border-color: transparent;
+  }
+
+  @media (max-width: 768px) {
+    .masthead__menu-item > a {
+      width: 100%;
+      justify-content: flex-start;
+      border-radius: 10px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var validTabs = ["papers", "competitions"];
+
+    function activateResearchTab(tabName) {
+      if (validTabs.indexOf(tabName) === -1) return;
+
+      document.querySelectorAll(".content-switcher__tab").forEach(function(tab) {
+        tab.classList.toggle("is-active", tab.dataset.tabTarget === tabName);
+      });
+
+      document.querySelectorAll(".content-switcher__panel").forEach(function(panel) {
+        panel.classList.toggle("is-active", panel.dataset.tabPanel === tabName);
+      });
+    }
+
+    function syncByHash() {
+      var currentHash = window.location.hash.replace("#", "");
+      if (validTabs.indexOf(currentHash) !== -1) {
+        activateResearchTab(currentHash);
+      }
+    }
+
+    document.querySelectorAll(".content-switcher__tab, .quick-links__card[data-tab-target]").forEach(function(link) {
+      link.addEventListener("click", function() {
+        var tabName = this.dataset.tabTarget;
+        if (!tabName) return;
+        activateResearchTab(tabName);
+      });
+    });
+
+    window.addEventListener("hashchange", syncByHash);
+    syncByHash();
+  });
+</script>
+
 <!-- end custom head snippets -->
