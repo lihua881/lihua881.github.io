@@ -60,6 +60,29 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
 
+  var activateResearchTab = function(tabName) {
+    if (!tabName) return;
+
+    $(".content-switcher__tab").removeClass("is-active");
+    $(".content-switcher__panel").removeClass("is-active");
+
+    $('.content-switcher__tab[data-tab-target="' + tabName + '"]').addClass("is-active");
+    $('.content-switcher__panel[data-tab-panel="' + tabName + '"]').addClass("is-active");
+  };
+
+  $(".content-switcher__tab, .quick-links__card[data-tab-target]").on("click", function() {
+    var tabName = $(this).data("tab-target");
+    if (!tabName) return;
+    activateResearchTab(tabName);
+    window.location.hash = tabName;
+  });
+
+  if (window.location.hash === "#competitions") {
+    activateResearchTab("competitions");
+  } else if (window.location.hash === "#papers") {
+    activateResearchTab("papers");
+  }
+
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 

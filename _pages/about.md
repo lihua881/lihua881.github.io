@@ -15,8 +15,18 @@ redirect_from:
 
 <!-- {% include_relative includes/news.md %} -->
 
-{% include_relative includes/pub.md %}
+<span class='anchor' id='research-tabs'></span>
+<div class="content-switcher">
+  <div class="content-switcher__tabs">
+    <a class="content-switcher__tab is-active" href="#papers" data-tab-target="papers">发表论文</a>
+    <a class="content-switcher__tab" href="#competitions" data-tab-target="competitions">科研竞赛</a>
+  </div>
 
-{% include_relative includes/honers.md %}
+  <div class="content-switcher__panel is-active" data-tab-panel="papers">
+    {% include_relative includes/pub.md %}
+  </div>
 
-<!-- {% include_relative includes/others.md %} -->
+  <div class="content-switcher__panel" data-tab-panel="competitions">
+    {% include_relative includes/honers.md %}
+  </div>
+</div>
