@@ -190,6 +190,48 @@ h1:before, .anchor:before {
     line-height: 1.75;
 }
 
+.content-switcher {
+    margin: 2rem 0 1rem;
+}
+
+.content-switcher__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+.content-switcher__tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 8.5rem;
+    padding: 0.85rem 1.4rem;
+    border-radius: 999px;
+    border: 1px solid rgba(28, 53, 84, 0.12);
+    background: #f6f8fb;
+    color: #23466d;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.content-switcher__tab:hover,
+.content-switcher__tab.is-active {
+    color: #fff;
+    background: linear-gradient(135deg, #1f5fa8 0%, #2f81c7 100%);
+    border-color: transparent;
+    box-shadow: 0 12px 24px rgba(31, 95, 168, 0.22);
+}
+
+.content-switcher__panel {
+    display: none;
+}
+
+.content-switcher__panel.is-active {
+    display: block;
+}
+
 @include breakpoint(max-width $small) {
     .intro-hero {
         padding: 1.4rem;
@@ -202,5 +244,13 @@ h1:before, .anchor:before {
 
     .quick-links {
         grid-template-columns: 1fr;
+    }
+
+    .content-switcher__tabs {
+        flex-direction: column;
+    }
+
+    .content-switcher__tab {
+        width: 100%;
     }
 }

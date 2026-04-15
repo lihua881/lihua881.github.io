@@ -20,11 +20,11 @@
 </div>
 
 <div class="quick-links">
-  <a class="quick-links__card" href="/publications/">
+  <a class="quick-links__card" href="#papers" data-tab-target="papers">
     <strong>发表论文</strong>
     <span>查看完整论文列表与代表性研究工作</span>
   </a>
-  <a class="quick-links__card" href="/competitions/">
+  <a class="quick-links__card" href="#competitions" data-tab-target="competitions">
     <strong>科研竞赛</strong>
     <span>查看学生竞赛获奖与科研成果展示</span>
   </a>
