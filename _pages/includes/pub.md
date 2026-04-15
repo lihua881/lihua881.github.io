@@ -1,15 +1,43 @@
 
 <span class='anchor' id='-lw'></span>
 # 📝 发表论文 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/paperimgs/cam_wang.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Expose Camouflage in the Water: Underwater
+Camouflaged Instance Segmentation and Dataset](https://ieeexplore.ieee.org/document/11455610)
+
+Chuhong Wang, **Hua Li**, Chongyi Li, Huazhong Liu, Xiongxin Tang, Sam Kwong
+
+[**Code**](https://github.com/wchchw/UCIS4K)
+  - We introduce UCIS4K, the first dataset dedicated to this task, containing 3,953 images with instance-level annotations. Alongside the dataset, we propose UCIS-SAM, a novel network featuring three core components: the Channel Balance Optimization Module (CBOM) to enhance underwater feature learning, the Frequency Domain True Integration Module (FDTIM) to filter out camouflage interference, and the Multi-scale Feature Frequency Aggregation Module (MFFAM) to sharpen the boundaries of low-contrast objects.
+
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/paperimgs/vit-uwa-lin.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[VIT-UWA: VISION TRANSFORMER UNDERWATERADAPTER FOR DENSE PREDICTIONS BENEATH THE WATER SURFACE](https://github.com/Linqirui/ViT-UWA)
+
+Yuheng Jia, Qirui Lin, **Hua Li**, Yutong Li, Sam Kwong, Runmin Cong
+
+[**Code**](https://github.com/Linqirui/ViT-UWA)
+  - We propose ViT-UWA (Vision Transformer Underwater-Adapter), a detail-focused backbone for underwater dense predictions that requires no task-specific pretraining. ViT-UWA incorporates three key modules: HFCP to recover lost high-frequency details, DAM to extract a multi-scale convolutional feature pyramid, and VCIM for bidirectional ViT-CNN feature fusion. Extensive evaluations demonstrate that ViT-UWA achieves state-of-the-art performance across multiple underwater tasks using only ImageNet-22K pretraining.
+
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM'MM 2025</div><img src='/paperimgs/fscdiff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[FSCDiff: Frequency-Spatial Entangled Conditional Diffusion model for Underwater Salient Object Detection](https://arxiv.org/xxx)
+[FSCDiff: Frequency-Spatial Entangled Conditional Diffusion model for Underwater Salient Object Detection](https://dl.acm.org/doi/10.1145/3746027.3755467)
 
 **Hua Li**, Gaowei Lin, Zhiyuan Li, Sam Kwong, Runmin Cong
 
-[**Code**](https://github.com/xxx)
+[**Code**](https://github.com/lgwplay/FSCDiff)
   - Underwater salient object detection (SOD) faces accuracy challenges due to complex environments. Existing RGB-D methods focus on spatial features, often neglecting frequency domain information. To address this, we propose the Frequency-Spatial Entangled Conditional Diffusion (FSCDiff) framework, which combines frequency-domain data with the iterative power of diffusion models. It includes two key components: the Frequency-Spatial Entanglement Enhancement Block (DTEB) for optimized feature representation, and the Stable Time-step Mask Prediction Module (STMP) for improved segmentation.
 
 
