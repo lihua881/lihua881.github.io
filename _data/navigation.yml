@@ -4,7 +4,7 @@ main:
     url: "/#about-me"
 
   - title: "发表论文"
-    url: "/publications/"
+    url: "/#papers"
 
   - title: "科研竞赛"
-    url: "/competitions/"
+    url: "/#competitions"
