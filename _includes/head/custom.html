@@ -80,40 +80,4 @@
   }
 </style>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var validTabs = ["papers", "competitions"];
-
-    function activateResearchTab(tabName) {
-      if (validTabs.indexOf(tabName) === -1) return;
-
-      document.querySelectorAll(".content-switcher__tab").forEach(function(tab) {
-        tab.classList.toggle("is-active", tab.dataset.tabTarget === tabName);
-      });
-
-      document.querySelectorAll(".content-switcher__panel").forEach(function(panel) {
-        panel.classList.toggle("is-active", panel.dataset.tabPanel === tabName);
-      });
-    }
-
-    function syncByHash() {
-      var currentHash = window.location.hash.replace("#", "");
-      if (validTabs.indexOf(currentHash) !== -1) {
-        activateResearchTab(currentHash);
-      }
-    }
-
-    document.querySelectorAll(".content-switcher__tab, .quick-links__card[data-tab-target]").forEach(function(link) {
-      link.addEventListener("click", function() {
-        var tabName = this.dataset.tabTarget;
-        if (!tabName) return;
-        activateResearchTab(tabName);
-      });
-    });
-
-    window.addEventListener("hashchange", syncByHash);
-    syncByHash();
-  });
-</script>
-
 <!-- end custom head snippets -->
