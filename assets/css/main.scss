@@ -107,3 +107,100 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.intro-hero {
+    margin: 1.5rem 0 2.5rem;
+    padding: 2rem;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #f7fbff 0%, #eef6ff 45%, #f7f4ec 100%);
+    border: 1px solid rgba(32, 93, 168, 0.12);
+    box-shadow: 0 18px 40px rgba(25, 60, 110, 0.08);
+}
+
+.intro-hero__lead {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.18rem;
+    line-height: 1.9;
+    color: #17365f;
+    font-weight: 600;
+}
+
+.intro-hero__main p:last-child {
+    margin-bottom: 0;
+    line-height: 1.9;
+}
+
+.intro-hero__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.intro-hero__tags span {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.55rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(23, 54, 95, 0.1);
+    color: #214875;
+    font-size: 0.94rem;
+    box-shadow: 0 6px 18px rgba(25, 60, 110, 0.06);
+}
+
+.quick-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0 0 2rem;
+}
+
+.quick-links__card {
+    display: block;
+    padding: 1.4rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #1c3554;
+    background: #fff;
+    border: 1px solid rgba(28, 53, 84, 0.1);
+    box-shadow: 0 14px 32px rgba(25, 60, 110, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.quick-links__card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(27, 98, 180, 0.35);
+    box-shadow: 0 18px 36px rgba(25, 60, 110, 0.12);
+}
+
+.quick-links__card strong,
+.quick-links__card span {
+    display: block;
+}
+
+.quick-links__card strong {
+    margin-bottom: 0.45rem;
+    font-size: 1.08rem;
+}
+
+.quick-links__card span {
+    color: #51657f;
+    line-height: 1.75;
+}
+
+@include breakpoint(max-width $small) {
+    .intro-hero {
+        padding: 1.4rem;
+        border-radius: 20px;
+    }
+
+    .intro-hero__lead {
+        font-size: 1.05rem;
+    }
+
+    .quick-links {
+        grid-template-columns: 1fr;
+    }
+}
