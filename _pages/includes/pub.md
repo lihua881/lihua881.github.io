@@ -31,35 +31,6 @@ Yuheng Jia, Qirui Lin, **Hua Li**, Yutong Li, Sam Kwong, Runmin Cong
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/paperimgs/cam_wang.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Expose Camouflage in the Water: Underwater
-Camouflaged Instance Segmentation and Dataset](https://ieeexplore.ieee.org/document/11455610)
-
-Chuhong Wang, **Hua Li**, Chongyi Li, Huazhong Liu, Xiongxin Tang, Sam Kwong
-
-[**Code**](https://github.com/wchchw/UCIS4K)
-  - We introduce UCIS4K, the first dataset dedicated to this task, containing 3,953 images with instance-level annotations. Alongside the dataset, we propose UCIS-SAM, a novel network featuring three core components: the Channel Balance Optimization Module (CBOM) to enhance underwater feature learning, the Frequency Domain True Integration Module (FDTIM) to filter out camouflage interference, and the Multi-scale Feature Frequency Aggregation Module (MFFAM) to sharpen the boundaries of low-contrast objects.
-
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/paperimgs/vit-uwa-lin.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[VIT-UWA: VISION TRANSFORMER UNDERWATERADAPTER FOR DENSE PREDICTIONS BENEATH THE WATER SURFACE](https://github.com/Linqirui/ViT-UWA)
-
-Yuheng Jia, Qirui Lin, **Hua Li**, Yutong Li, Sam Kwong, Runmin Cong
-
-[**Code**](https://github.com/Linqirui/ViT-UWA)
-  - We propose ViT-UWA (Vision Transformer Underwater-Adapter), a detail-focused backbone for underwater dense predictions that requires no task-specific pretraining. ViT-UWA incorporates three key modules: HFCP to recover lost high-frequency details, DAM to extract a multi-scale convolutional feature pyramid, and VCIM for bidirectional ViT-CNN feature fusion. Extensive evaluations demonstrate that ViT-UWA achieves state-of-the-art performance across multiple underwater tasks using only ImageNet-22K pretraining.
-
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM'MM 2025</div><img src='/paperimgs/fscdiff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
